@@ -1,4 +1,4 @@
-# Proyecto de Encriptación y Desencriptación de Texto
+# Challenge Encriptador y Desencriptador de Texto
 
 Este proyecto es una aplicación web que permite encriptar y desencriptar texto utilizando JavaScript. La encriptación se realiza mediante el reemplazo de ciertas vocales por cadenas de texto específicas. La aplicación proporciona una interfaz de usuario interactiva que permite ingresar texto, encriptarlo, desencriptarlo y copiar el resultado al portapapeles.
 
@@ -28,11 +28,11 @@ Este proyecto es una aplicación web que permite encriptar y desencriptar texto 
 
 ## Estructura del Proyecto
 
-/proyecto-encriptacion
-│
-├── index.html         # Página principal de la aplicación
-├── styles.css         # Estilos de la aplicación
-└── main.js            # Lógica de la aplicación
+**/proyecto-encriptacion
+**│
+**├── index.html         # Página principal de la aplicación
+**├── styles.css         # Estilos de la aplicación
+**└── main.js            # Lógica de la aplicación
 
 ## Cómo Usar
 
@@ -51,7 +51,7 @@ Este proyecto es una aplicación web que permite encriptar y desencriptar texto 
 1. **Clonar el repositorio:**
 
    ```bash
-   git clone https://github.com/yinsanders/proyecto-encriptacion.git
+   git clone https://github.com/yinsanders/challenge-encriptador.git
 
 2. **Abrir el archivo index.html:**
 
@@ -84,4 +84,4 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 
 ## Licencia
 
-Este proyecto está bajo Licencia.
+Este proyecto es open source.
