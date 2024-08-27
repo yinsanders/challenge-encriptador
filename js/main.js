@@ -1,4 +1,13 @@
-// Código javascript
+// Sin caracteres especiales y solo minúsculas
+function soloLetras(event) {
+	let charCode = event.charCode;
+	return ((charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122) || (charCode == 32) || (charCode == 241));
+}
+
+function convertirMinusculas(element) {
+	element.value = element.value.toLowerCase();
+}
+
 // Obtener los elementos del DOM
 const encriptar = document.getElementById("button__encriptar");
 const desencriptar = document.getElementById("button__desencriptar");
@@ -25,7 +34,7 @@ const remplace = (newvalue) => {
 // Reiniciar la interfaz a su estado inicial
 const reset = () => {
 	textoInicial.value = "";
-    textoInicial.style.height = "auto";
+	textoInicial.style.height = "auto";
 	textFinal.innerHTML = "";
 	rigth.classList.remove("ajuste")
 	textFinal.classList.remove("ajustar");

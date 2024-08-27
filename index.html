@@ -27,7 +27,7 @@
     <main>
         <article class="container">
             <section class="left" id="left">
-                <textarea class="inputtextarea" id="textoInput" placeholder="Ingrese el texto aquí" autofocus></textarea>
+                <textarea class="inputtextarea" id="textoInput" placeholder="Ingrese el texto aquí" onkeypress="return soloLetras(event);" oninput="convertirMinusculas(this);" autofocus></textarea>
                 <div class="content_botones">
                     <span class="info">
                         <img src="img/aviso.svg" alt="Aviso Advertencia" />
@@ -64,6 +64,7 @@
             </a>
         </div>
     </footer>
+    
     <script src="js/main.js"></script>
 </body>
 </html>
